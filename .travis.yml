@@ -2,7 +2,7 @@ addons:
   sonarcloud:
     organization: "rihabj"
     token:
-      secure: "travis encrypt cc045033198a4c964eeb2e7e8590b4b6c4723ebd" #   encrypted value of your token
+      secure: "cc045033198a4c964eeb2e7e8590b4b6c4723ebd" #  encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
